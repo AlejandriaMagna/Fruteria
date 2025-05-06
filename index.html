@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binevenidos a la Frutería</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Frutería</h1>
+    </header>
+        <main>
+            <p>Seleccione su rol para iniciar sesión:</p>
+            <!-- Formulario para seleccionar el rol -->
+            <form id="rolForm" method="GET">
+                <!-- Opción Usuario -->
+                <label>
+                    <input type="radio" name="tipo_usuario" value="usuario" required> Usuario
+                </label>
+                <br>
+            <!-- Opción Administrador -->
+            <label>
+                <input type="radio" name="tipo_usuario" value="admin" required> Administrador
+            </label>
+            <br><br>
+            <!-- Botón para enviar el formulario -->
+            <button type="submit">Continuar</button>
+        </form>
+    </main>
+    <!-- Enlace al archivo JavaScript -->
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
